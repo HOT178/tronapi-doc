@@ -1,0 +1,35 @@
+:root, 
+html.dark {
+  --content-width: 100%;
+  --homepage-width: 960px;
+  --c-brand: #3eaf7c;
+  --c-brand-light: #3eaf7c;
+  --sidebar-width: 18rem;
+}
+
+.actions {
+  .external-link-icon {
+    --external-link-icon-color: #fff;
+  }
+}
+
+html.dark {
+  .external-link-icon {
+    --external-link-icon-color: #222;
+  } 
+}
+
+.home .hero img {
+  max-height: 120px;
+}
+
+.back-to-top {
+  bottom: 6.5rem !important;
+  right: 2.5rem !important;
+}
+
+.navbar-item {
+  .external-link-icon {
+    color:var(--c-text);
+  }
+}
